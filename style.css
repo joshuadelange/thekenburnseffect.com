@@ -1,0 +1,37 @@
+body {
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+#bg {
+	position: absolute;
+	z-index: 0;
+}
+
+#liger {
+	position: absolute;
+		top: 0%;
+		left: 10%;
+		right: 10%;
+	z-index: 100;
+}
+
+nav {
+	position: absolute;
+		top: 0;
+	z-index: 150;
+}
+
+nav a {
+	display: block;
+	width: 200px;
+	background-color: hotpink;
+	font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;
+	text-decoration: none;
+	border-bottom: 5px solid yellow;
+	margin: 20px;
+	padding: 20px;
+	color: yellow;
+	font-size: 40px;
+}
