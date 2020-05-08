@@ -36,3 +36,22 @@ nav a {
 	color: yellow;
 	font-size: 40px;
 }
+
+.little-star {
+	position: absolute;
+	height: 50px;
+	width: 50px;
+	right: 0;
+	top: 0;
+	z-index: 10000;
+}
+
+.surprise {
+	position: absolute;
+	background: white;
+	bottom: 0;
+	left: 0;
+	text-align: center;
+	display: none;
+	z-index: 100000000;
+}

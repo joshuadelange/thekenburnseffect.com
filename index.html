@@ -9,6 +9,12 @@
 		<img id="bg" src="images/bg.gif">
 		<img id="liger" src="images/liger.png">
 
+		<img class="little-star" src="images/little-star.jpg" />
+		<div class="surprise">
+			<p>happy birthday</p>
+			<img src="images/surprise.png" />
+		</div>
+
 		<nav>
 			<a target="_blank" href="https://www.facebook.com/pages/The-Ken-Burns-Effect/1437102429876775">Gigs</a>
 			<a target="_blank" href="https://kenburnseffect.bandcamp.com/releases">Bandcamp</a>
@@ -23,6 +29,24 @@
 
 			ga('create', 'UA-62543314-1', 'auto');
 			ga('send', 'pageview');
+		</script>
+
+		<script>
+
+
+				document.addEventListener('DOMContentLoaded', function(){
+
+					console.log('dom loaded');
+
+					console.log(document.querySelector('.little-star'))
+
+					document.querySelector('.little-star').addEventListener('click', function(){
+						document.querySelector('.surprise').style.display = 'block';
+					});
+
+				});
+
+
 		</script>
 
 	</body>
